@@ -1,0 +1,14 @@
+{
+  "tareas": [
+    {
+      "id": "dnwpz4s5",
+      "titulo": "12321321",
+      "descripcion": "32132132",
+      "estado": "2",
+      "dificultad": 5,
+      "fechaCreacion": "2025-10-20T18:31:13.260Z",
+      "fechaVencimiento": null,
+      "ultimaEdicion": "2025-10-20T18:31:13.260Z"
+    }
+  ]
+}

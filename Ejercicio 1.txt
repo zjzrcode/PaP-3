@@ -1,0 +1,23 @@
+1) Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+Las reglas fundamentales (codificadas en el estándar ECMAScript) que definen la POO en JavaScript son:
+
+Regla de Herencia (Prototipos): Los objetos no heredan de "clases"; heredan directamente de otros objetos a través de un enlace interno llamado [[Prototype]].
+
+Mecanismo clave: Si un objeto no tiene una propiedad, la busca automáticamente en su objeto prototipo, creando la Cadena de Prototipos (Prototype Chain).
+
+Regla de Creación de Objetos: La herencia se establece utilizando:
+
+Funciones Constructoras junto con la palabra clave new.
+
+El método Object.create() para especificar el prototipo de un objeto recién creado.
+
+Regla de las Clases (ES6): La sintaxis class de JavaScript (a partir de ES6) es solo una forma más clara (azúcar sintáctico) de escribir las reglas de las funciones constructoras y el uso de prototipos. En el fondo, el mecanismo sigue siendo el mismo.
+
+2) Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+Los desarrolladores a menudo valoran las siguientes características del modelo de prototipos, considerándolas superiores a la POO basada en clases tradicional:
+
+Flexibilidad Extrema y Dinamismo: Es la característica más destacada. Permite modificar, extender o añadir nuevos métodos y propiedades a un objeto o a su prototipo en cualquier momento (incluso en tiempo de ejecución), lo que facilita el desarrollo dinámico.
+
+Simpleza Conceptual (Solo Objetos): Se elimina la necesidad de distinguir entre "clases" (plantillas abstractas) y "objetos" (instancias concretas). El modelo se simplifica a "solo hay objetos" que sirven como plantillas (prototipos) para otros objetos.
+
+Delegación Clara: El mecanismo de herencia por prototipos se percibe como una forma más directa de delegación de funcionalidad (pedir ayuda a otro objeto), lo que algunos encuentran más intuitivo que la jerarquía rígida de clases.
